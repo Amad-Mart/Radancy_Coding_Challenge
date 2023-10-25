@@ -1,0 +1,354 @@
+body {
+  background-color: white;
+  /* background-color: lightgray; */
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-Mobile {
+  display: none;
+}
+.AlternativeHeroImage {
+  display: none;
+}
+
+.page_Header {
+  color: #00945f; /* From offical Citizens Bank Webpage */
+}
+
+.TopIcon {
+  margin-top: 0.5rem;
+  width: 14rem;
+}
+
+.HeroImage {
+  max-height: 50vh;
+  max-width: 180vw;
+  min-width: 120vw;
+}
+
+.HeroImage {
+  max-height: 35rem;
+  width: 100vw;
+}
+
+.subheading-textIcon {
+  max-height: 1rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.HeroImage-container {
+  margin-top: 0.65rem;
+}
+.TopIcon-container {
+  display: block;
+}
+.subheading-container {
+  display: flex;
+}
+
+.subheading-textIcon {
+  padding-top: 1rem;
+  max-height: 2rem;
+  display: block;
+  margin: 0 auto; 
+  text-align: center; 
+}
+.subheading-title {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #00945f;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+.solid-bar {
+  height: 0.2rem;
+  width: 5rem;
+  background-color: #00945f;
+  margin: 0 auto;
+}
+.solid-bar2 {
+  display: none;
+}
+.subparagraph {
+  color: rgb(165, 164, 164);
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.View-careersBtn {
+  background-color: #e97300;
+  color: #fff;
+  display: block;
+  width: 13rem;
+  height: 2,5rem;
+  margin: 2rem auto 0; /* Add margin-top for spacing */
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+
+/* Add styles for the paragraph grid */
+.paragraph-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+/* Add styles for individual paragraphs */
+.paragraph {
+  padding: 1rem;
+  color: rgb(165, 164, 164);
+  font-size: 1.5rem;
+}
+
+/* Style the paragraph titles */
+.paragraph h3 {
+  font-size: 2rem;
+  margin: 0;
+  color: #00945f;
+  font-weight: 100;
+}
+.learnMore {
+  color: rgb(130, 180, 38);
+  font-size: small;
+}
+/* Add styles for the bigger > symbol */
+.bigger-greater-than {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  vertical-align: middle;
+}
+/* Style for the box */
+.info-box {
+  background-color: #00945f;
+  color: white;
+  margin: 3rem auto;
+  margin-left: 1rem;
+  max-width: 100vw;
+  margin-bottom: 3.3rem;
+}
+
+/* Style for the header */
+.info-box-header {
+  font-size: 1.1rem;
+  font-weight: 50;
+  margin: 0;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Style for the content */
+.info-box-content {
+  background-color: #ebf7f5;
+  padding-top: 0rem;
+  padding-left: 2rem;
+  border: 1px solid #ebf7f5;
+  color: rgb(165, 164, 164);
+}
+
+.double-spacing {
+  line-height: 2; /* Adjust the value to control the line spacing (2 for double spacing) */
+}
+
+/* Style for the image row */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+  margin-top: 6vh;
+}
+
+/* Style for individual image boxes */
+.image-box {
+  text-align: center;
+}
+
+/* Style for images */
+.image-box img {
+  max-width: 20vw;
+}
+
+/* Style for filler text */
+.image-box p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+/* Style for person's name and job title */
+.person-info {
+  color: #00945f;
+  font-weight: 100;
+  font-size: 1.1rem;
+  max-width: 10vw;
+}
+.quoteBox {
+  text-align: center;
+  color: rgb(165, 164, 164);
+  max-width: 11vw;
+  padding-left: 5rem;
+}
+.quoteBox.Large {
+  max-width: 25vw;
+  margin: 1rem 0;
+  margin-left: 6rem;
+}
+/* *********************************** */
+/* Style for the image row */
+/* Style for the image row */
+.image-row {
+  display: flex;
+  justify-content: space-around; /* Center the image-boxes horizontally */
+  margin: 3rem 0;
+  margin-top: 0rem;
+}
+
+/* Style for individual image boxes */
+.image-box {
+  text-align: center;
+  max-width: 20vw;
+  margin: 0 auto; /* Center the image-box horizontally */
+  padding: 1rem; /* Add spacing between image-boxes */
+  padding-top: 0rem;
+}
+
+/* Style for images */
+.image-box img {
+  width: 10vw;
+  height: 10vh;
+  padding-bottom: 0.1rem;
+}
+@media (max-width: 1210px) {
+  .grid-item img { 
+    width: 20vw;
+  }
+}
+
+/* Style for quoteBox and quoteBox Large */
+.quoteBox {
+  /* padding: 20px; */
+  max-width: 10vw; /* Set a maximum width for responsiveness */
+  text-align: center; /* Center the quoteBox */
+  padding-top: 0px;
+  color: rgb(126, 125, 125);
+}
+.quoteBoxLarge {
+  color: #666666;
+  max-width: 25vw;
+  /* margin: 1rem 0; */
+  text-align: center; /* Center the quoteBox */
+  /* padding: 0.5rem; */
+  margin-left: 2rem;
+  background-image: url(./assets/QuotesIcon-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: -5px 0px;
+}
+/* Style for filler text */
+.quoteBox p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+/* Style for person's name and job title, centered */
+.person-info {
+  color: #00945f;
+  font-weight: 100;
+  font-size: 1.1rem;
+  text-align: center; /* Center the person-info text */
+}
+
+#MarkPicture {
+  padding-top: 0rem;
+}
+
+/* ********************************** */
+/* Style for the grid container */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin: 3rem 0;
+  text-align: center;
+}
+
+/* Style for grid items */
+.grid-item {
+  padding: 0.5rem;
+}
+
+/* Style for text */
+.grid-item.quote p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+/* Style for person's name and job title, centered */
+.grid-item.info .person-info {
+  color: #00945f;
+  font-weight: 100;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* Style for quoteBox and quoteBoxLarge */
+.grid-item.quote .quoteBox {
+  background-color: transparent; /* Remove the green box background */
+  padding: 20px;
+  border: none; /* Remove any border */
+  max-width: 12vw; /* Set a maximum width for responsiveness */
+  text-align: center; /* Center the quoteBox */
+  margin: 0 auto; /* Center the quoteBox horizontally */
+  padding-top: 0px;
+}
+
+/* Style for person's name and job title, centered */
+.grid-item.info .person-info {
+  color: #00945f;
+  font-weight: 100;
+  font-size: 1.1rem;
+  text-align: center; 
+  margin: 0 auto; 
+}
+/* Style for the quote overlay */
+/* CSS for the quote box with background image */
+.quote-overlay {
+  position: relative;
+}
+
+.quoteBox {
+  color: #666666;
+  background-image: url(./assets/QuotesIcon-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: 15px 0px;
+
+}
+
+
+
+
+.socials img {
+  width: 2rem; /* Adjust the width to your preferred size */
+  height: 2rem; /* Adjust the height to your preferred size */
+}
+
+.BottomText {
+  font-weight: 500 !important;
+}
+.footerText {
+  color: rgb(126, 125, 125);
+}
+
+
+

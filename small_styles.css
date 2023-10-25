@@ -1,0 +1,309 @@
+@media  (max-width: 649px) {
+  body {
+    margin-left: 0rem;
+    width: 105vw;
+    height: 100vh;
+  }
+  .TopIcon-container {
+    text-align: center; /* Center the TopIcon within its row */
+    margin: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .TopIcon {
+    width: 50vw;
+    margin-right: 3.5rem;
+  }
+  .HeroImage {
+    display: none;
+  }
+
+  /* Display the alternative HeroImage and adjust its styling */
+  .AlternativeHeroImage {
+    display: block;
+    margin-left: -15vw;
+    width: 118vw;
+    max-height: 50vh;
+    padding-bottom: 1rem;
+  }
+  /* Increase the font size and other properties for the enlarged elements */
+  .subheading-title {
+    font-size: 1.9rem;
+    padding-top: 1.7rem;
+    padding-right: 3.5rem;
+    font-size: 2.2rem;
+    font-weight: 100;
+  }
+  .paragraph h3 {
+    font-size: 1.6rem;
+  }
+
+  .NewBar{
+    border-bottom: 0.1rem solid #00945f;
+    padding-bottom: 0.5rem;
+  }
+
+  .solid-bar {
+    display: none;
+  }
+  .solid-bar2 {
+    display: block;
+    height: 0.2rem;
+    width: 6rem;
+    background-color: #00945f;
+    margin: 0 auto;
+  }
+  .solid-bar3 {
+    height: 0.2rem;
+    width: 8rem;
+    background-color: #00945f;
+    margin: 0 auto;
+  }
+
+  .subparagraph {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    padding-right: 5rem;
+  }
+
+  .View-careersBtn {
+    width: 50vw;
+    height: 6vh;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .View-careersBtn:hover {
+    background-color: #ff8500; 
+  }
+  @media (max-width: 510px) {
+    .View-careersBtn {
+      width: 60vw;
+      font-size: 1rem;
+    }
+
+  }
+
+  /* Change the grid layout to a 1x4 grid */
+  .paragraph-grid {
+    grid-template-columns: 1fr;
+    margin-top: 0.7rem;
+  }
+  /* Stacking .paragraph elemewidth: 10vw;
+  height: 10vh;nts */
+  .paragraph {
+    line-height: 1.6;
+    padding: 0rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    margin-right: 4rem;
+  }
+  p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.9rem;
+  }
+
+  .learnMore {
+    margin-top: -0.3rem;
+    font-size: 1.2rem;
+  }
+  .info-box {
+    margin: 0rem;
+    margin-right: 4rem;
+  }
+  .info-box-header {
+    font-size: 1.6rem;
+    padding: 0.7rem;
+    line-height: 1.5;
+  }
+  .info-box-content {
+    padding-left: 0.5rem;
+    padding-top: 0.7rem;
+    padding-right: 0.4rem;
+  }
+  .double-spacing {
+    line-height: 1.6;
+    margin-left: 0rem;
+    padding-left: 0rem;
+  }
+
+  /* Style for the image row on mobile */
+  .image-row {
+    flex-direction: column; /* Stack the images on top of each other */
+    align-items: center; /* Center the images vertically */
+  }
+
+  /* Style for the individual image boxes on mobile */
+  .image-box {
+    max-width: 60vw; /* Adjust as needed for mobile */
+    padding: 0.5rem; /* Add spacing between image-boxes on mobile */
+    text-align: center;
+  }
+
+  /* Style for the images on mobile */
+  .image-box img {
+    max-width: 100%; /* Make images responsive on mobile */
+  }
+
+  /* Style for the quoteBox and quoteBox Large on mobile */
+  .quoteBox,
+  .quoteBox.Large {
+    max-width: 100%; /* Make the quoteBoxes full width on mobile */
+    padding-left: 1rem; /* Add padding to the left for mobile */
+    margin: 0 auto; /* Center the quoteBox horizontally on mobile */
+  }
+
+  /* Style for the person-info on mobile */
+  .person-info {
+    max-width: 100%; /* Make it full width on mobile */
+    padding: 0.5rem;
+  }
+
+  /* Add styles for grid on mobile */
+  .grid {
+    display: none;
+  }
+  .grid-Mobile {
+    display: block;
+  }
+
+  .grid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Style for grid items on mobile */
+  .grid-item {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .grid-item img {
+    width: 55vw;
+  }
+
+  /* new */
+  /* Reset the grid and adjust styling for smaller screens */
+  .grid {
+    grid-template-columns: 1fr; /* Display a single column on mobile */
+    text-align: center; /* Center the content on mobile */
+  }
+
+  /* Reset the positioning for grid items on smaller screens */
+  .grid-item {
+    padding: 1rem; /* Adjust as needed for mobile */
+  }
+
+  /* Adjust the image width and positioning */
+  .grid-item img {
+    max-width: 55vw; /* Make the images responsive on mobile */
+    max-height: auto;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Reset quoteBox and quoteBoxLarge styles */
+  .grid-item.quote .quoteBox,
+  .grid-item.quote .quoteBoxLarge {
+    max-width: 90vw; /* Make the quoteBoxes full width on mobile */
+    text-align: center; /* Center the quoteBox on mobile */
+    margin: 0 auto; /* Center the quoteBox horizontally on mobile */
+  }
+
+  /* Reset person-info styles */
+  .grid-item.info .person-info {
+    max-width: 100%; /* Make it full width on mobile */
+    padding: 0.5rem;
+  }
+
+  /* Change the order of img, quote, and info within grid-item */
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-item-Mobile {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .grid-item-Mobile img {
+    padding-top: 4rem;
+    width: 50vw;
+    margin-right: 10vw;
+  }
+  
+  .grid-item-Mobile.quote-Mobile,
+  .grid-item-Mobile.info-Mobile {
+    display: block;
+    width: 100%; /* Make each item full width on mobile */
+    padding: 1rem; /* Add spacing for mobile */
+  }
+  
+  .quoteBox-Mobile,
+  .quoteBoxLarge-Mobile {
+    
+    text-align: center;
+    max-width: 90vw; 
+    margin: 0 auto; 
+    padding-top: 0px;
+    
+  }
+
+  .quoteBox-Mobile {
+    color: #666666;
+    background-image: url(./assets/QuotesIcon-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: 1px 0px;
+    font-size: 2rem;
+    width: 75vw;
+    margin-left: 2.5rem;
+  }
+  .quoteBoxLarge-Mobile {
+    width: 85vw;
+    font-size: 1.7rem;
+    text-align: center;
+    max-width: 90vw; 
+    margin: 0 auto;
+    margin-left: 0rem; 
+    padding-top: 0px;
+    color: #666666;
+    background-image: url(./assets/QuotesIcon-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: 1px 0px;
+  }
+  
+  .person-info-Mobile {
+    width: 18rem;
+    color: #00945f;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center; 
+    margin: 0 auto;
+    margin-right: 25vw; 
+  }
+  .Footer{
+    margin-top: 5rem;
+    width: 90vw;
+  }
+  .socials img{
+    height: 3rem;
+    width: 3rem;
+    padding: 0.2rem;
+  }
+  .BottomText{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 4vh;
+    padding-bottom: 3vh;
+  }
+  .footer-link {
+    color: #666666; /* Set text color to black */
+    text-decoration: underline; /* Add underline */
+  }
+  
+}
